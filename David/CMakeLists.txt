@@ -4,7 +4,7 @@ project(PongGame)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(/mnt/c/Users/david/MIREA/game/raylib-src raylib_build)
+add_subdirectory(raylib-src ../raylib_build)
 
 add_executable(pong game.cpp)
 
